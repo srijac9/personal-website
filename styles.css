@@ -1,5 +1,11 @@
 body {
     margin: 0;
-    background: green;
+    background: linear-gradient(
+        to right,
+        rgb(146, 186, 163) 0%,
+        rgb(146, 186, 163) 50%,
+        rgb(128, 101, 91) 50%,
+        rgb(128, 101, 91) 100%
+    ); 
     text-align: center;
 }
