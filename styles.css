@@ -44,6 +44,11 @@ body {
     transition: transform 0.5s;
 }
 
+.no-transition .front,
+.no-transition .back {
+    transition: none !important;
+}
+
 .front {
     z-index: 1;
     backface-visibility: hidden;
